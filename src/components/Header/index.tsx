@@ -5,8 +5,8 @@ export const Header: React.FC = () => {
   return (
   // spaces
 
-    <header id="header">
-        <li><a className="nav-links"></a><img id="header-img" src="http://localhost:3000/static/zapprotocollogo.png"  width = "250" height = "40" alt="Company Logo" /> 
+    <header id="header" padding-top="100px">
+        <li><a className="nav-links"></a><img id="header-img" src="https://mti.com/wp-content/uploads/2021/04/Amazon-Web-Services-Logo-White.png"  width = "55" height = "31" alt="Company Logo" /> 
           </li>
       <nav id="nav-bar">
         <ul>
