@@ -4,19 +4,19 @@ body {
     margin: 0;
     font-family: Ubuntu, sans-serif;
     
-    background-color: rgb(0, 25, 58)
+    background-color: rgb(94, 0, 0)
 }
 
 
   
 .h1 {
-    font-family: 'Rubik';
+    font-family: 'Ubuntu';
 }
 @font-face {
-    font-family: 'Rubik';
+    font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 600;
-    src: local('Rubik'), url(http://example.com/fonts/Rubik.woff) format('woff');
+    font-weight: 500;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
 }
 ul {
     list-style-type: none;
@@ -26,8 +26,8 @@ li {
 }
 .footer {
     
-    justify-content: left;
-    background-color:rgb(0, 43, 78);
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
   }
   
   .footer a {
@@ -37,7 +37,7 @@ li {
   }
 #header {
     display: flex;
-    background-color:rgb(0, 43, 78);
+    background-color:rgb(15, 15, 15);
     font-size: 15px;
     position: fixed;
     top: 0px;
@@ -71,7 +71,8 @@ li {
 
 }
 div.wizard {
-background-color: rgb(0, 25, 58);
+background-color: rgb(94, 0, 0);
+
 color: rgb(0, 25, 58); }
 .nav-link { 
     text-decoration: none;
@@ -85,7 +86,7 @@ color: rgb(0, 25, 58); }
 
 #stripes {
 	height: 100vh;
-	background: linear-gradient(150deg, rgb(0, 18, 121) 12%,rgb(0, 25, 58) 18%, rgb(0, 25, 58) 100%);
+	background: linear-gradient(150deg, rgb(160, 1, 1) 12%,rgb(94, 0, 0) 18%, rgb(94, 0, 0) 100%);
 
 
 
@@ -138,6 +139,8 @@ color: rgb(0, 25, 58); }
     padding:0.8em;
     display: flex-box;
     position: center;
+    color: "white";
+
 
 
 
@@ -145,6 +148,8 @@ color: rgb(0, 25, 58); }
 .card1 {
     position: center;
     display: flex-box;
+    color: "white";
+
 
 }
   .overlay {
@@ -154,14 +159,17 @@ color: rgb(0, 25, 58); }
     padding: 8rem 6rem;
     display: flex;
     align-items: center;
-    background: rgba(12, 158, 255, 0.375);
-    box-shadow: 0 0.75rem 2rem 0 rgba(75, 152, 182, 0.1);
+    color: "white";
+    background: rgba(0, 0, 0, 0.675);
+    box-shadow: 0 0.75rem 2rem 0 rgba(255, 0, 0, 0.1);
     border-radius: 2rem;
-    border: 1px solid rgba(255, 255, 255, 0.125);
+    border: 1px solid rgba(51, 0, 0, 0.125);
   }
   
   .overlay__inner {
     max-width: 36rem;
+    color: "white";
+
   }
   
   .overlay__title {
@@ -170,6 +178,8 @@ color: rgb(0, 25, 58); }
     font-weight: 700;
     letter-spacing: -0.025em;
     margin-bottom: 2rem;
+    color: "white";
+
   }
   
   .text-gradient {
@@ -187,6 +197,8 @@ color: rgb(0, 25, 58); }
   .overlay__description {
     font-size: 1rem;
     line-height: 1.75rem;
+    color: white;
+
     margin-bottom: 3rem;
   }
   
