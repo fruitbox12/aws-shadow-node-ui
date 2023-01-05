@@ -2,7 +2,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Image from "next/image";
 
 export const CustomConnect = () => {
-    return (
+    return (<div>
         <ConnectButton.Custom>
             {({
                 account,
@@ -28,13 +28,16 @@ export const CustomConnect = () => {
                                 userSelect: "none",
                             },
                         })}
-                    >
+                    >    
+
+          
                         {(() => {
                             if (!connected) {
                                 return (
                                     <button onClick={openConnectModal} type="button">
                                         Connect Wallet
                                     </button>
+                                    
                                 );
                             }
                             if (chain.unsupported) {
@@ -48,7 +51,7 @@ export const CustomConnect = () => {
                                 <div style={{ display: "flex", gap: 12 }}>
                                     <button
                                         onClick={openChainModal}
-                                        style={{ display: "flex", alignItems: "center" }}
+                                        style={{ display: "flex", alignItems: "center", color: "#303234"}}
                                         type="button"
                                     >
                                         {chain.hasIcon && (
@@ -84,7 +87,7 @@ export const CustomConnect = () => {
                     </div>
                 );
             }}
-        </ConnectButton.Custom>
+        </ConnectButton.Custom></div>
     );
 };
 
