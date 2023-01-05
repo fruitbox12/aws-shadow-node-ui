@@ -75,7 +75,7 @@ const StepForm: React.FC = () => {
     color: 'white'
 }}>
        
-            <h2>Provide a Name Service</h2>
+            <h2>Create a New Function</h2>
             <TextField
               label="Endpoint"
               name="provider"
@@ -184,33 +184,32 @@ const StepForm: React.FC = () => {
             padding: '10%',
             alignItems: 'center',
             justifyContent: 'center',
-        color: 'rgb(22, 122, 252)'
+        color: 'white'
         }}>
             <h2>Step 5</h2>
             <p>
-              Confirm Oracle Endpoint Creation with these Parameters:
             </p>
             <ul>
               <li>
-                Name Service: {formValues.firstName}
+                Project Name: {formValues.firstName}
               </li>
               <li>
-                Address: {formValues.lastName}
+                Endpoints: {formValues.lastName}
               </li>
               <li>
-                API: {formValues.email}
+                Resources: {formValues.email}
               </li>
               <li>
                 JSON: {formValues.phone}
               </li>
               <li>
-                Price Curve: {formValues.address}
+                Function: {formValues.address}
               </li>
               <li>
-                Max Supply: {formValues.city}
+                Replicas: {formValues.city}
               </li>
               <li>
-                Gas: {formValues.state}
+                ServiceROutes: {formValues.state}
               </li>
               <li>
                 Region: {formValues.country}
