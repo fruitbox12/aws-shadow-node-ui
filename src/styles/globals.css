@@ -16,7 +16,7 @@ body {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 600;
-    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+    src: local('Rubik'), url(http://example.com/fonts/ubuntu.woff) format('woff');
 }
 ul {
     list-style-type: none;
