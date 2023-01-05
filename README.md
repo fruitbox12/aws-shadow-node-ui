@@ -21,3 +21,4 @@ Mainly_ App.tsx and useContract.ts files, Other files are configured around thes
 # Example
 Switch to the example branch
 Example：https://nextjs-wagmi-template.vercel.app/# zap.org
+# zap.org
