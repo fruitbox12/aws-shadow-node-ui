@@ -22,8 +22,8 @@ export const Splash: React.FC = () => {
       <span className="text-gradient"></span> 
     </h1>
     <p className="overlay__description">
-	  <strong>Zap Protocol</strong> allows users to create and subscribe to decentralized oracles,  
-      <strong> fueling On and Off-Chain SaaS Services</strong></p>
+	  <strong>Anonymous Web Services</strong>  is the First Anonymous Decentralized Public Edge Cloud 
+      <strong> </strong></p>
 
       
 
