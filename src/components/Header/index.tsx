@@ -33,12 +33,12 @@ export const Header: React.FC = () => {
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#features">
-              Documentation
+            <a className="nav-link" href="https://app.zap.org/docs/overview">
+              Docs
             </a>
           </li>
           <li>
-            <a className="nav-link" href="#how-it-works">
+            <a className="nav-link" href="https://medium.com/the-zap-project">
               News
             </a>
           </li>
