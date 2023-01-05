@@ -2,7 +2,6 @@ import { useState } from 'react';
 import * as React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
@@ -12,6 +11,7 @@ import Stepper from '@material-ui/core/Stepper';
 import StepLabel from '@material-ui/core/Stepper';
 import { BasciConnect } from "components/ConnectWallet";
 import { Header } from "components/Header";
+import { colors } from '@material-ui/core';
 
 type Step = 1 | 2 | 3 | 4 | 5;
 
@@ -72,6 +72,7 @@ const StepForm: React.FC = () => {
     padding: '10%',
     alignItems: 'center',
     justifyContent: 'center',
+    color: 'white'
 }}>
        
             <h2>Provide a Name Service</h2>
@@ -97,6 +98,8 @@ const StepForm: React.FC = () => {
             padding: '10%',
             alignItems: 'center',
             justifyContent: 'center',
+            color: 'white'
+
         }}>
             <h2>Provide an API Endpoint</h2>
             <TextField
@@ -123,6 +126,8 @@ const StepForm: React.FC = () => {
             padding: '10%',
             alignItems: 'center',
             justifyContent: 'center',
+            color: 'white'
+
         }}>
             <h2>Step 3</h2>
             <TextField
@@ -153,6 +158,8 @@ const StepForm: React.FC = () => {
             padding: '10%',
             alignItems: 'center',
             justifyContent: 'center',
+            color: 'white'
+
         }}>
             <h2>Step 4</h2>
             <TextField
